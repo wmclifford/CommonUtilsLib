@@ -67,6 +67,8 @@ void circ_list_unlink ( p_node_dbl_t node );
 ////  and will not be as efficient as their counterparts above.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+#ifdef HAVE_PTHREAD_H
+
 /** @brief Locates a node in the circular list, searching along the forward links. **/
 p_node_dbl_t circ_list_find_r ( pthread_mutex_t * mtx, p_node_dbl_t startpt, node_find_t searchfn, void * searchdata );
 
@@ -84,6 +86,8 @@ p_node_dbl_t circ_list_rfind_r ( pthread_mutex_t * mtx, p_node_dbl_t startpt, no
 
 /** @brief Removes a node from the circular list (does not delete the node). **/
 void circ_list_unlink_r ( pthread_mutex_t * mtx, p_node_dbl_t node );
+
+#endif /* HAVE_PTHREAD_H */
 
 /* ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- */
 

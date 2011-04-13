@@ -66,7 +66,7 @@ udp_join_multicast_group ( sock_fd_t udp_sock_fd, in_addr_t local_ip, in_addr_t 
 {
   struct ip_mreq mcast_request;
   if ( udp_sock_fd == INVALID_SOCKET_FD )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   mcast_request.imr_multiaddr.s_addr = multicast_ip;
   mcast_request.imr_interface.s_addr = local_ip;
   return ( setsockopt ( udp_sock_fd, IPPROTO_IP, IP_ADD_MEMBERSHIP,
@@ -83,7 +83,7 @@ udp_join_multicast_group_s ( sock_fd_t udp_sock_fd, const char * local_ip_str, c
        inet_aton ( multicast_ip_str, (struct in_addr*) &multi_ip ) )
     return udp_join_multicast_group ( udp_sock_fd, local_ip, multi_ip );
   else
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
 }
 
 bool_t
@@ -91,7 +91,7 @@ udp_leave_multicast_group ( sock_fd_t udp_sock_fd, in_addr_t local_ip, in_addr_t
 {
   struct ip_mreq mcast_request;
   if ( udp_sock_fd == INVALID_SOCKET_FD )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   mcast_request.imr_multiaddr.s_addr = multicast_ip;
   mcast_request.imr_interface.s_addr = local_ip;
   return ( setsockopt ( udp_sock_fd, IPPROTO_IP, IP_DROP_MEMBERSHIP,
@@ -108,7 +108,7 @@ udp_leave_multicast_group_s ( sock_fd_t udp_sock_fd, const char * local_ip_str, 
        inet_aton ( multicast_ip_str, (struct in_addr*) &multi_ip ) )
     return udp_leave_multicast_group ( udp_sock_fd, local_ip, multi_ip );
   else
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
 }
 
 /* ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- */

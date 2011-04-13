@@ -265,12 +265,12 @@ bool_t
 io_sched_reschedule_task ( p_io_scheduler_task_t io_task )
 {
   if ( !( io_task ) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   if ( S_IOSCHED_OPTS_REMOVE( io_task ) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   LOGSVC_TRACE( "io_sched_reschedule_task(): Rescheduling task FD == %d", io_task->fd );
   inl_io_sched_populate_expire_time ( io_task );
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 /**
@@ -297,7 +297,7 @@ bool_t
 io_sched_schedule_task ( p_io_scheduler_task_t io_task )
 {
   if ( !io_task )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   if ( S_IOSCHED_OPTS_READ( io_task ) && !(io_task->on_read_rdy_cbk) )
     io_task->opts &= ~IO_SCHEDULER_READ;
@@ -329,7 +329,7 @@ io_sched_schedule_task ( p_io_scheduler_task_t io_task )
     //io_task->owner->scheduled_tasks = io_task;
   } while ( 0 );
   
-  if ( ICP_DEBUG_ENABLED ) {
+  if ( CMNUTIL_DEBUG_ENABLED ) {
     p_io_scheduler_task_t t = io_task->owner->scheduled_tasks;
     int iii = 0;
     while ( t ) {
@@ -341,7 +341,7 @@ io_sched_schedule_task ( p_io_scheduler_task_t io_task )
   
   UNLOCK_MUTEX( io_task->owner->task_list_mutex );
   
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 /**
@@ -357,7 +357,7 @@ io_sched_start_scheduler_thread ( p_io_scheduler_t scheduler )
   LOGSVC_DEBUG( "io_sched_start_scheduler_thread()" );
   
   if ( !(scheduler) || ( scheduler->stop_scheduler ) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   do
   {
@@ -365,7 +365,7 @@ io_sched_start_scheduler_thread ( p_io_scheduler_t scheduler )
                           (const pthread_attr_t *) 0,
                           io_sched_threadfn, scheduler );
     if ( rc == 0 )
-      return ICP_TRUE;
+      return CMNUTIL_TRUE;
     else if ( rc == EAGAIN )
       usleep ( IO_SCHEDULER_UTIME_QTR_SECOND );
   }
@@ -373,7 +373,7 @@ io_sched_start_scheduler_thread ( p_io_scheduler_t scheduler )
   
   if ( rc == EAGAIN )
     LOGSVC_ERROR( "io_sched_start_scheduler_thread(): Too many threads; cannot create another." );
-  return ICP_FALSE;
+  return CMNUTIL_FALSE;
 }
 
 /**
@@ -394,7 +394,7 @@ io_sched_stop_scheduler ( p_io_scheduler_t scheduler )
       task->opts |= IO_SCHEDULER_REMOVE;
       task = task->next;
     }
-    scheduler->stop_scheduler = ICP_TRUE;
+    scheduler->stop_scheduler = CMNUTIL_TRUE;
     UNLOCK_MUTEX( scheduler->task_list_mutex );
     
     if ( scheduler->scheduler_thread ) {
@@ -411,7 +411,7 @@ io_sched_stop_scheduler ( p_io_scheduler_t scheduler )
     }
     //else {
     //  LOGSVC_DEBUG( "Setting scheduler stop flag" );
-    //  scheduler->stop_scheduler = ICP_TRUE;
+    //  scheduler->stop_scheduler = CMNUTIL_TRUE;
     //}
   }
 }
@@ -437,7 +437,7 @@ io_sched_unschedule_task ( p_io_scheduler_task_t io_task )
 bool_t
 io_sched_process_task ( p_io_scheduler_task_t io_task, fd_set * rds, fd_set * wrs, fd_set * ers )
 {
-  bool_t rv = ICP_TRUE;
+  bool_t rv = CMNUTIL_TRUE;
   struct timespec ts_now;
   bool_t task_expired;
   
@@ -468,7 +468,7 @@ io_sched_process_task ( p_io_scheduler_task_t io_task, fd_set * rds, fd_set * wr
         rv = rv && io_task->on_timeout_cbk ( io_task, IO_SCHEDULER_ERR_OP_TIMEOUT );
       }
       else {
-        rv = ICP_FALSE;
+        rv = CMNUTIL_FALSE;
       }
     }
     
@@ -482,7 +482,7 @@ io_sched_process_task ( p_io_scheduler_task_t io_task, fd_set * rds, fd_set * wr
         rv = rv && io_task->on_timeout_cbk ( io_task, IO_SCHEDULER_ERR_OP_TIMEOUT );
       }
       else {
-        rv = ICP_FALSE;
+        rv = CMNUTIL_FALSE;
       }
     }
   }
@@ -493,11 +493,11 @@ io_sched_process_task ( p_io_scheduler_task_t io_task, fd_set * rds, fd_set * wr
       if ( !( io_task->on_timeout_cbk ( io_task, IO_SCHEDULER_ERR_OP_TIMEOUT ) ) ) {
         /* Wants to repeat after the original timeout amount of time again */
         inl_io_sched_populate_expire_time ( io_task );
-        rv = ICP_FALSE;
+        rv = CMNUTIL_FALSE;
       }
     }
     else {
-      rv = ICP_FALSE;
+      rv = CMNUTIL_FALSE;
     }
   }
   

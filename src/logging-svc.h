@@ -82,14 +82,14 @@ logsvc_log ( CATEGORY_NAME, LOGSVC_PRIORITY_NOTICE, msgfmt, ##__VA_ARGS__ )
 #define LOGSVC_INFO( msgfmt, ... ) \
 logsvc_log ( CATEGORY_NAME, LOGSVC_PRIORITY_INFO, msgfmt, ##__VA_ARGS__ )
 
-#if ICP_DEBUG_ENABLED
+#if CMNUTIL_DEBUG_ENABLED
 #define LOGSVC_DEBUG( msgfmt, ... ) \
 logsvc_log ( CATEGORY_NAME, LOGSVC_PRIORITY_DEBUG, msgfmt, ##__VA_ARGS__ )
 #else
 #define LOGSVC_DEBUG( msgfmt, ... )
 #endif
 
-#if ICP_TRACE_ENABLED
+#if CMNUTIL_TRACE_ENABLED
 #define LOGSVC_TRACE( msgfmt, ... ) \
 logsvc_log ( CATEGORY_NAME, LOGSVC_PRIORITY_TRACE, msgfmt, ##__VA_ARGS__ )
 #else
@@ -116,14 +116,14 @@ logsvc_log ( CATEGORY_NAME, LOGSVC_PRIORITY_TRACE, msgfmt, ##__VA_ARGS__ )
 #define LOGSVC_CATEGORY_INFO( category_name, msgfmt, ... ) \
   logsvc_log ( category_name, LOGSVC_PRIORITY_INFO, msgfmt, ##__VA_ARGS__ )
 
-#if ICP_DEBUG_ENABLED
+#if CMNUTIL_DEBUG_ENABLED
 #define LOGSVC_CATEGORY_DEBUG( category_name, msgfmt, ... ) \
   logsvc_log ( category_name, LOGSVC_PRIORITY_DEBUG, msgfmt, ##__VA_ARGS__ )
 #else
 #define LOGSVC_CATEGORY_DEBUG( category_name, msgfmt, ... )
 #endif
 
-#if ICP_TRACE_ENABLED
+#if CMNUTIL_TRACE_ENABLED
 #define LOGSVC_CATEGORY_TRACE( category_name, msgfmt, ... ) \
   logsvc_log ( category_name, LOGSVC_PRIORITY_TRACE, msgfmt, ##__VA_ARGS__ )
 #else

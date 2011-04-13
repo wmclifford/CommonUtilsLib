@@ -409,7 +409,7 @@ inl_stack_fixed_is_empty ( p_stack_t stack )
   if ( stack && ( stack->type == STACK_TYPE_FIXED ) )
     return ( stack->current == stack->limit );
   else
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
 }
 
 static inline bool_t
@@ -418,7 +418,7 @@ inl_stack_fixed_is_full ( p_stack_t stack )
   if ( stack && ( stack->type == STACK_TYPE_FIXED ) )
     return ( stack->current == 0 );
   else
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
 }
 
 static inline void
@@ -515,7 +515,7 @@ static inline bool_t
 inl_stack_free_is_empty ( p_stack_t stack )
 {
   if ( !stack || ( stack->type != STACK_TYPE_FREE ) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   return ( stack->free_top == (p_stack_free_node_t) 0 );
 }
 

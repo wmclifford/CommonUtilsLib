@@ -57,7 +57,7 @@ tcp_client_connect ( p_tcp_client_t client, p_io_scheduler_t scheduler )
                                   scheduler, client, on_tcp_client_connected_to_server, 3 ) )
     {
       LOGSVC_DEBUG( "Connecting to '%s:%d' ...", client->remote_ip_str, client->remote_port );
-      return ICP_TRUE;
+      return CMNUTIL_TRUE;
     }
     else {
       LOGSVC_ERROR( "Failed to connect to '%s:%d'", client->remote_ip_str, client->remote_port );
@@ -68,7 +68,7 @@ tcp_client_connect ( p_tcp_client_t client, p_io_scheduler_t scheduler )
     }
   }
   
-  return ICP_FALSE;
+  return CMNUTIL_FALSE;
 }
 
 void
@@ -212,7 +212,7 @@ tcp_listener_start ( p_tcp_listener_t listener, p_io_scheduler_t scheduler )
 {
   if ( !( listener ) || !( scheduler ) ) {
     LOGSVC_DEBUG( "tcp_listener_start(): Missing listener or I/O scheduler." );
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
   
   // We want to create a reader task to watch the listener socket for incoming connections. These will show up
@@ -228,11 +228,11 @@ tcp_listener_start ( p_tcp_listener_t listener, p_io_scheduler_t scheduler )
       free ( listener->io_task );
       listener->io_task = NIL_IO_SCHEDULER_TASK;
     }
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
   
   LOGSVC_INFO( "Listener started for TCP port %d", listener->port );
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 void
@@ -308,7 +308,7 @@ tcp_remote_client_start ( p_tcp_remote_client_t remcli )
   if ( remcli )
     return io_sched_schedule_task ( remcli->io_task );
   else
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
 }
 
 void

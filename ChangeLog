@@ -1,0 +1,10 @@
+
+*   5:37 PM Wednesday, April 13, 2011
+    src/*
+    -   Replaced "ICP_" prefix with "CMNUTIL_" prefix in various macros.
+    src/gccpch.h.in
+    - Added LOCK_MUTEX_PTR/UNLOCK_MUTEX_PTR macros.
+    - Wrapped mutex macros section in #ifdef block that checks for PThreads.
+    src/circ-link-list.h,src/circ-link-list.c
+    - Wrapped "thread-safe" functions in #ifdef block that checks for PThreads.
+    

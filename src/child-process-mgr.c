@@ -104,7 +104,7 @@ child_proc_mgr_init ( void )
     }
     mp->prev = mp->next = mp;
     mp->child = NIL_child_proc;
-    mp->owned_by_mgr = ICP_FALSE;
+    mp->owned_by_mgr = CMNUTIL_FALSE;
     rv->monitored_procs_head = mp;
     pthread_mutex_init( &( rv->monitored_procs_mutex ), (const pthread_mutexattr_t*) 0 );
   }
@@ -114,7 +114,7 @@ child_proc_mgr_init ( void )
 bool_t
 child_proc_mgr_monitor_child ( struct _child_proc_mgr * cpmgr, p_child_proc_t child )
 {
-  bool_t rv = ICP_TRUE;
+  bool_t rv = CMNUTIL_TRUE;
   p_monitored_proc_t mp, last;
   
   ASSERT_EXIT_FALSE( cpmgr );
@@ -133,12 +133,12 @@ child_proc_mgr_monitor_child ( struct _child_proc_mgr * cpmgr, p_child_proc_t ch
     // Found a monitor for this PID ... is it the same pointer? If so, we can jump out and return TRUE.
     if ( mp->child != child ) {
       LOGSVC_WARNING( "This child process is already being monitored; refusing to add another monitor." );
-      rv = ICP_FALSE;
+      rv = CMNUTIL_FALSE;
     }
   }
   else {
     // Not found ... we can add it.
-    mp = monitored_proc_init ( child, ICP_FALSE );
+    mp = monitored_proc_init ( child, CMNUTIL_FALSE );
     if ( mp ) {
       last = cpmgr->monitored_procs_head->prev;
       last->next = mp;
@@ -149,7 +149,7 @@ child_proc_mgr_monitor_child ( struct _child_proc_mgr * cpmgr, p_child_proc_t ch
     }
     else {
       LOGSVC_ERROR( "Unable to create monitor for this child process (%d).", child->pid );
-      rv = ICP_FALSE;
+      rv = CMNUTIL_FALSE;
     }
   }
   
@@ -162,7 +162,7 @@ bool_t
 child_proc_mgr_monitor_pid ( struct _child_proc_mgr * cpmgr,
                              pid_t pid, fd_t fd, void * userdata, child_proc_exited_t on_pid_exit )
 {
-  bool_t rv = ICP_TRUE;
+  bool_t rv = CMNUTIL_TRUE;
   p_monitored_proc_t mp, last;
   p_child_proc_t child;
   
@@ -181,12 +181,12 @@ child_proc_mgr_monitor_pid ( struct _child_proc_mgr * cpmgr,
   if ( mp != cpmgr->monitored_procs_head ) {
     // Found a monitor for this PID ...
     LOGSVC_WARNING( "This child process is already being monitored; refusing to add another monitor." );
-    rv = ICP_FALSE;
+    rv = CMNUTIL_FALSE;
   }
   else {
     // Not found ... we can add it.
     child = child_proc_init_full ( pid, fd, userdata, on_pid_exit );
-    mp = monitored_proc_init ( child, ICP_TRUE );
+    mp = monitored_proc_init ( child, CMNUTIL_TRUE );
     if ( mp ) {
       last = cpmgr->monitored_procs_head->prev;
       last->next = mp;
@@ -199,7 +199,7 @@ child_proc_mgr_monitor_pid ( struct _child_proc_mgr * cpmgr,
       LOGSVC_ERROR( "Unable to create monitor for this child process (%d).", pid );
       if ( child )
         child_proc_destroy ( child );
-      rv = ICP_FALSE;
+      rv = CMNUTIL_FALSE;
     }
   }
   
@@ -222,10 +222,10 @@ child_proc_mgr_start ( struct _child_proc_mgr * cpmgr, p_io_scheduler_t schedule
   
   if ( !( io_sched_schedule_task ( cpmgr->monitor_task ) ) ) {
     LOGSVC_ERROR( "Failed to create/schedule monitor I/O task." );
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
   
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 void

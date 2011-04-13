@@ -29,8 +29,8 @@ typedef enum {
     IO_SCHEDULER_REMOVE                   = 0x80000000
 } io_task_opts_t;
 
-#define IO_SCHEDULER_TASK_COMPLETE        ICP_TRUE
-#define IO_SCHEDULER_TASK_INCOMPLETE      ICP_FALSE
+#define IO_SCHEDULER_TASK_COMPLETE        CMNUTIL_TRUE
+#define IO_SCHEDULER_TASK_INCOMPLETE      CMNUTIL_FALSE
 
 /**
  * Callback function used for handling reads/writes/errors and timeouts. Function will

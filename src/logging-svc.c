@@ -10,9 +10,9 @@
 /* Shared (global) variables        */
 /* ---------- ---------- ---------- */
 
-bool_t g_logsvc_logging_on = ICP_TRUE;
-bool_t g_logsvc_debug_on = ICP_FALSE;
-bool_t g_logsvc_trace_on = ICP_FALSE;
+bool_t g_logsvc_logging_on = CMNUTIL_TRUE;
+bool_t g_logsvc_debug_on = CMNUTIL_FALSE;
+bool_t g_logsvc_trace_on = CMNUTIL_FALSE;
 
 /* ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- */
 /* Local function prototypes        */
@@ -97,7 +97,7 @@ logsvc_start ( void )
   if ( log4c_init () ) {
     /* something's wrong ... */
     fprintf ( stderr, "LOG4C failed to initialize - logging disabled.\n" );
-    g_logsvc_logging_on = ICP_FALSE;
+    g_logsvc_logging_on = CMNUTIL_FALSE;
     return;
   }
   else {
@@ -117,14 +117,14 @@ logsvc_start ( void )
 #else
   
   if ( g_logsvc_trace_on ) {
-#if ICP_TRACE_ENABLED
+#if CMNUTIL_TRACE_ENABLED
     max_priority_level = LOGSVC_PRIORITY_TRACE;
 #else
     fprintf ( stderr, "Warning: requested TRACE logging level in non-trace-enabled build.\nIgnoring.\n" );
 #endif
   }
   else if ( g_logsvc_debug_on ) {
-#if ICP_DEBUG_ENABLED
+#if CMNUTIL_DEBUG_ENABLED
     max_priority_level = LOGSVC_PRIORITY_DEBUG;
 #else
     fprintf ( stderr, "Warning: requested DEBUG logging level in non-debug-enabled build.\nIgnoring.\n" );

@@ -166,8 +166,17 @@
 typedef int bool_t;
 #endif
 
-#define ICP_FALSE                       0
-#define ICP_TRUE                        (!0)
+/* These defines are available to make sure that we have a way of writing TRUE/FALSE.
+ * Not all compilers do it the same, so we check first to see if TRUE and FALSE are already
+ * defined. If so, we make our defines use them. Otherwise, we define our own.
+ */
+#if (defined( TRUE ) && defined( FALSE ))
+  #define CMNUTIL_FALSE                 FALSE
+  #define CMNUTIL_TRUE                  TRUE
+#else
+  #define CMNUTIL_FALSE                 0
+  #define CMNUTIL_TRUE                  (!0)
+#endif /* defined(TRUE) && defined(FALSE) */
 
 /* ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- */
 /* File descriptors for sockets and pipes      */
@@ -199,6 +208,8 @@ typedef int pipe_fd_t;
 /* Mutex Handling        */
 /* ---------- ---------- */
 
+#ifdef HAVE_PTHREAD_H
+
 /* This works in tandem with UNLOCK_MUTEX() defined below. Do not use this macro by itself;
    the code will not compile, and the error messages will look like garbly-gook nonsense
    that has nothing to do with the code itself. This is because pthread_cleanup_push() is
@@ -224,6 +235,20 @@ typedef int pipe_fd_t;
   pthread_cleanup_pop ( 1 )
 #endif
 
+/* Pointer-based versions of the above macros. These already expect to get a ( pthread_mutex_t* )
+   from the caller, rather than doing the conversion here. Remember to use the correct macro pair. */
+#ifndef LOCK_MUTEX_PTR
+#define LOCK_MUTEX_PTR(m) \
+  pthread_cleanup_push ( (void (*)(void*)) pthread_mutex_unlock, (m) ); pthread_mutex_lock ( m )
+#endif
+
+#ifndef UNLOCK_MUTEX_PTR
+#define UNLOCK_MUTEX_PTR(m) \
+  pthread_cleanup_pop ( 1 )
+#endif
+
+#endif /* HAVE_PTHREAD_H */
+
 /* ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- */
 /* Miscellaneous         */
 /* ---------- ---------- */
@@ -235,26 +260,26 @@ typedef int pipe_fd_t;
 
 /* Debug Options - Used to check for debug builds, trace enabled, etc. */
 #if (defined( _NDEBUG ) || defined( NDEBUG ))
-#define ICP_DEBUG_ENABLED               ICP_FALSE
-#define ICP_TRACE_ENABLED               ICP_FALSE
+  #define CMNUTIL_DEBUG_ENABLED         CMNUTIL_FALSE
+  #define CMNUTIL_TRACE_ENABLED         CMNUTIL_FALSE
 #else
-#ifdef _DEBUG
-#define ICP_DEBUG_ENABLED               ICP_TRUE
-#else
-#define ICP_DEBUG_ENABLED               ICP_FALSE
-#endif
-#ifdef _TRACE
-#ifndef _DEBUG
-#warning _TRACE defined, but _DEBUG not defined; forgot something?
-#endif
-#define ICP_TRACE_ENABLED               ICP_TRUE
-#else
-#define ICP_TRACE_ENABLED               ICP_FALSE
-#endif
+  #ifdef _DEBUG
+    #define CMNUTIL_DEBUG_ENABLED       CMNUTIL_TRUE
+  #else
+    #define CMNUTIL_DEBUG_ENABLED       CMNUTIL_FALSE
+  #endif
+  #ifdef _TRACE
+    #ifndef _DEBUG
+      #warning _TRACE defined, but _DEBUG not defined; forgot something?
+    #endif
+    #define CMNUTIL_TRACE_ENABLED       CMNUTIL_TRUE
+  #else
+    #define CMNUTIL_TRACE_ENABLED       CMNUTIL_FALSE
+  #endif
 #endif
 
 #ifndef WHEREAMI
-#if ICP_TRACE_ENABLED
+#if CMNUTIL_TRACE_ENABLED
 #define WHEREAMI() \
   fprintf ( stderr, "DEBUG: At %s, %d :::: %s\n", __FILE__, __LINE__, __PRETTY_FUNCTION__ )
 #else
@@ -297,7 +322,7 @@ typedef int pipe_fd_t;
 /* Assert helpers */
 #ifdef HAVE_ASSERT_H
 #if (defined( _NDEBUG ) || defined( NDEBUG ))
-#define ASSERT_EXIT_FALSE( test )           do { if ( !( test ) ) return ICP_FALSE; } while ( 0 )
+#define ASSERT_EXIT_FALSE( test )           do { if ( !( test ) ) return CMNUTIL_FALSE; } while ( 0 )
 #define ASSERT_EXIT_NULL( test, dtype )     do { if ( !( test ) ) return ( dtype ) 0; } while ( 0 )
 #define ASSERT_EXIT_VOID( test )            do { if ( !( test ) ) return; } while ( 0 )
 #else

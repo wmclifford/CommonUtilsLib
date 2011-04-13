@@ -107,7 +107,7 @@ tcp_connect_s ( sock_fd_t sockfd, const char * remote_ip_str, uint16_t remote_po
   if ( inet_aton ( remote_ip_str, (struct in_addr*) &ip ) )
     return tcp_connect_timeout ( sockfd, ip, remote_port, scheduler, on_conn_cbk, 2 );
   else
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
 }
 
 bool_t
@@ -119,13 +119,13 @@ tcp_connect_timeout ( sock_fd_t sockfd, in_addr_t remote_ip, uint16_t remote_por
 
   if ( sockfd == INVALID_SOCKET_FD ) {
     LOGSVC_TRACE( CATEGORY_NAME, "tcp_connect_timeout(): received bad file descriptor" );
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
 
   p_pending_connection pconn = tcp_pending_connection_new ( sockfd, remote_ip, remote_port );
   if ( !pconn ) {
     LOGSVC_TRACE( CATEGORY_NAME, "tcp_connect_timeout(): failed to create a new pending connection" );
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
 
   /* Set socket to non-blocking mode. */
@@ -148,13 +148,13 @@ tcp_connect_timeout ( sock_fd_t sockfd, in_addr_t remote_ip, uint16_t remote_por
       LOGSVC_TRACE( CATEGORY_NAME, "tcp_connect_timeout(): calling on_conn_cbk" );
       on_conn_cbk ( sockfd, 0 );
     }
-    return ICP_TRUE;
+    return CMNUTIL_TRUE;
   }
   else if ( ( rc == -1 ) && ( errno != EINPROGRESS ) ) {
     /* Connection failed immediately. */
     LOGSVC_TRACE( CATEGORY_NAME, "tcp_connect_timeout(): connect() failed immediately" );
     tcp_pending_connection_free ( pconn );
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
   
   if ( scheduler == NIL_IO_SCHEDULER ) {
@@ -163,7 +163,7 @@ tcp_connect_timeout ( sock_fd_t sockfd, in_addr_t remote_ip, uint16_t remote_por
     LOGSVC_TRACE( CATEGORY_NAME, "tcp_connect_timeout(): did not receive a valid I/O scheduler" );
     tcp_pending_connection_free ( pconn );
     close ( sockfd );
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
 
   /* If we got here, connect() returned -1, and the connection is being attempted (EINPROGRESS). */
@@ -174,7 +174,7 @@ tcp_connect_timeout ( sock_fd_t sockfd, in_addr_t remote_ip, uint16_t remote_por
   task = io_sched_create_writer_task ( scheduler, sockfd, (int64_t) IO_SCHEDULER_TIME_ONE_SECOND * (int64_t) timeout_secs,
                                        (void*) pconn, tcp_io_scheduler_connect_cbk );
   io_sched_schedule_task ( task );
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 bool_t
@@ -186,13 +186,13 @@ tcp_connect_timeout_ud ( sock_fd_t sockfd, in_addr_t remote_ip, uint16_t remote_
   
   if ( sockfd == INVALID_SOCKET_FD ) {
     LOGSVC_TRACE( CATEGORY_NAME, "tcp_connect_timeout(): received bad file descriptor" );
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
   
   p_pending_connection pconn = tcp_pending_connection_new ( sockfd, remote_ip, remote_port );
   if ( !pconn ) {
     LOGSVC_TRACE( CATEGORY_NAME, "tcp_connect_timeout(): failed to create a new pending connection" );
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
   pconn->user_data = userdata;
   
@@ -216,13 +216,13 @@ tcp_connect_timeout_ud ( sock_fd_t sockfd, in_addr_t remote_ip, uint16_t remote_
       LOGSVC_TRACE( CATEGORY_NAME, "tcp_connect_timeout(): calling on_conn_cbk" );
       on_conn_cbk ( scheduler, sockfd, 0, userdata );
     }
-    return ICP_TRUE;
+    return CMNUTIL_TRUE;
   }
   else if ( ( rc == -1 ) && ( errno != EINPROGRESS ) ) {
     /* Connection failed immediately. */
     LOGSVC_TRACE( CATEGORY_NAME, "tcp_connect_timeout(): connect() failed immediately" );
     tcp_pending_connection_free ( pconn );
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
   
   if ( scheduler == NIL_IO_SCHEDULER ) {
@@ -231,7 +231,7 @@ tcp_connect_timeout_ud ( sock_fd_t sockfd, in_addr_t remote_ip, uint16_t remote_
     LOGSVC_TRACE( CATEGORY_NAME, "tcp_connect_timeout(): did not receive a valid I/O scheduler" );
     tcp_pending_connection_free ( pconn );
     close ( sockfd );
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
   
   /* If we got here, connect() returned -1, and the connection is being attempted (EINPROGRESS). */
@@ -242,7 +242,7 @@ tcp_connect_timeout_ud ( sock_fd_t sockfd, in_addr_t remote_ip, uint16_t remote_
   task = io_sched_create_writer_task ( scheduler, sockfd, (int64_t) IO_SCHEDULER_TIME_ONE_SECOND * (int64_t) timeout_secs,
                                        (void*) pconn, tcp_io_scheduler_connect_cbk );
   io_sched_schedule_task ( task );
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 sock_fd_t

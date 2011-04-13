@@ -56,13 +56,13 @@ slinklst_append ( p_slink_list_node_t * listptr, p_slink_list_node_t node )
   
   /* Have to have valid pointers. */
   if ( !listptr || !node )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   /* If the list is empty, we can simply set the node to the head of the list. */
   if ( !(*listptr) ) {
     node->next = *listptr;
     *listptr = node;
-    return ICP_TRUE;
+    return CMNUTIL_TRUE;
   }
   
   /* Loop to the end of the list, then append the node. */
@@ -71,7 +71,7 @@ slinklst_append ( p_slink_list_node_t * listptr, p_slink_list_node_t node )
     pnode = pnode->next;
   pnode->next = node;
   node->next = (p_slink_list_node_t) 0;
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 /* ---------- ---------- ---------- ---------- */
@@ -113,10 +113,10 @@ bool_t
 slinklst_insert_after ( p_slink_list_node_t insert_point, p_slink_list_node_t node )
 {
   if ( !insert_point || !node )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   node->next = insert_point->next;
   insert_point->next = node;
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 /* ---------- ---------- ---------- ---------- */
@@ -125,12 +125,12 @@ slinklst_insert_after_r ( pthread_mutex_t mutex,
                           p_slink_list_node_t insert_point, p_slink_list_node_t node )
 {
   if ( !insert_point || !node )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   LOCK_MUTEX( mutex );
   node->next = insert_point->next;
   insert_point->next = node;
   UNLOCK_MUTEX( mutex );
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 /* ---------- ---------- ---------- ---------- */
@@ -141,17 +141,17 @@ slinklst_insert_ordered ( p_slink_list_node_t * listptr, p_slink_list_node_t nod
   p_slink_list_node_t pnode;
   
   if ( !listptr || !node )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   if ( !(*listptr) ) {
     *listptr = node;
-    return ICP_TRUE;
+    return CMNUTIL_TRUE;
   }
   
   if ( sortfn ( node, *listptr ) < 0 ) {
     node->next = *listptr;
     *listptr = node;
-    return ICP_TRUE;
+    return CMNUTIL_TRUE;
   }
   
   pnode = *listptr;
@@ -159,7 +159,7 @@ slinklst_insert_ordered ( p_slink_list_node_t * listptr, p_slink_list_node_t nod
     pnode = pnode->next;
   node->next = pnode->next;
   pnode->next = node;
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 /* ---------- ---------- ---------- ---------- */
@@ -179,11 +179,11 @@ bool_t
 slinklst_prepend ( p_slink_list_node_t * listptr, p_slink_list_node_t node )
 {
   if ( !listptr || !node )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   node->next = *listptr;
   *listptr = node;
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 /* ---------- ---------- ---------- ---------- */
@@ -191,13 +191,13 @@ bool_t
 slinklst_prepend_r ( pthread_mutex_t mutex, p_slink_list_node_t * listptr, p_slink_list_node_t node )
 {
   if ( !listptr || !node )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   LOCK_MUTEX( mutex );
   node->next = *listptr;
   *listptr = node;
   UNLOCK_MUTEX( mutex );
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 /* ---------- ---------- ---------- ---------- */
@@ -207,11 +207,11 @@ slinklst_remove ( p_slink_list_node_t * listptr, p_slink_list_node_t node )
   p_slink_list_node_t pnode;
   
   if ( !listptr || !node || !(*listptr) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   if ( *listptr == node ) {
     *listptr = node->next;
-    return ICP_TRUE;
+    return CMNUTIL_TRUE;
   }
   
   /* Locate node in list - we can't remove it if it is not in the list! */
@@ -222,11 +222,11 @@ slinklst_remove ( p_slink_list_node_t * listptr, p_slink_list_node_t node )
   if ( pnode->next == node ) {
     /* Found it */
     pnode->next = node->next;
-    return ICP_TRUE;
+    return CMNUTIL_TRUE;
   }
   
   /* Didn't find it */
-  return ICP_FALSE;
+  return CMNUTIL_FALSE;
 }
 
 /* ---------- ---------- ---------- ---------- */
@@ -246,22 +246,22 @@ bool_t
 slinklst_remove_after ( p_slink_list_node_t remove_point )
 {
   if ( !remove_point || !(remove_point->next) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   remove_point->next = remove_point->next->next;
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 /* ---------- ---------- ---------- ---------- */
 bool_t
 slinklst_remove_after_r ( pthread_mutex_t mutex, p_slink_list_node_t remove_point )
 {
-  bool_t rv = ICP_FALSE;
+  bool_t rv = CMNUTIL_FALSE;
   if ( !remove_point )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   LOCK_MUTEX( mutex );
   if ( remove_point->next ) {
     remove_point->next = remove_point->next->next;
-    rv = ICP_TRUE;
+    rv = CMNUTIL_TRUE;
   }
   UNLOCK_MUTEX( mutex );
   return rv;

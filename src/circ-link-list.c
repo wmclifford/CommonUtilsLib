@@ -149,6 +149,8 @@ circ_list_unlink ( p_node_dbl_t node )
 ////  and will not be as efficient as their counterparts above.
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+#ifdef HAVE_PTHREAD_H
+
 /** @brief Locates a node in the circular list, searching along the forward links. **/
 p_node_dbl_t
 circ_list_find_r ( pthread_mutex_t * mtx, p_node_dbl_t startpt, node_find_t searchfn, void * searchdata )
@@ -156,10 +158,10 @@ circ_list_find_r ( pthread_mutex_t * mtx, p_node_dbl_t startpt, node_find_t sear
   ASSERT_EXIT_NULL( startpt, p_node_dbl_t );
   ASSERT_EXIT_NULL( searchfn, p_node_dbl_t );
   ASSERT_EXIT_NULL( mtx, p_node_dbl_t );
+
+  p_node_dbl_t rv = NIL_node_dbl;
   
   LOCK_MUTEX_PTR( mtx );
-  
-  p_node_dbl_t rv = startpt->next;
   
   while ( rv && ( rv != startpt ) && !( searchfn ( rv, searchdata ) ) )
     rv = rv->next;
@@ -253,9 +255,9 @@ circ_list_rfind_r ( pthread_mutex_t * mtx, p_node_dbl_t startpt, node_find_t sea
   ASSERT_EXIT_NULL( searchfn, p_node_dbl_t );
   ASSERT_EXIT_NULL( mtx, p_node_dbl_t );
   
-  LOCK_MUTEX_PTR( mtx );
+  p_node_dbl_t rv = NIL_node_dbl;
   
-  p_node_dbl_t rv = startpt->prev;
+  LOCK_MUTEX_PTR( mtx );
   
   while ( rv && ( rv != startpt ) && !( searchfn ( rv, searchdata ) ) )
     rv = rv->prev;
@@ -280,6 +282,8 @@ circ_list_unlink_r ( pthread_mutex_t * mtx, p_node_dbl_t node )
   }
   UNLOCK_MUTEX_PTR( mtx );
 }
+
+#endif /* HAVE_PTHREAD_H */
 
 /* ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- */
 /* Local functions       */

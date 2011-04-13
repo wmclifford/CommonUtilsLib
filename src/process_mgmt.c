@@ -41,16 +41,16 @@ proc_mgmt_is_process_alive ( const char * process_name, pid_t * p_process_pid )
   bool_t rv;
   
   if ( STR_IS_NULL_OR_EMPTY ( process_name ) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   sprintf ( pid_file_name, "/var/run/%s.pid", process_name );
   fp_pid = fopen ( pid_file_name, "r" );
   if ( !( fp_pid ) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   if ( !( fgets ( buffer, sizeof( buffer ), fp_pid ) ) ) {
     fclose ( fp_pid );
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   }
   
   fclose ( fp_pid );
@@ -75,17 +75,17 @@ proc_mgmt_record_my_pid ( const char * process_name )
   FILE * fp_pid;
   
   if ( STR_IS_NULL_OR_EMPTY( process_name ) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   sprintf ( pid_file_name, "/var/run/%s.pid", process_name );
   fp_pid = fopen ( pid_file_name, "w" );
   if ( !( fp_pid ) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   fprintf ( fp_pid, "%d", getpid () );
   fflush ( fp_pid );
   fclose ( fp_pid );
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 bool_t
@@ -95,17 +95,17 @@ proc_mgmt_record_pid ( const char * process_name, pid_t process_pid )
   FILE * fp_pid;
   
   if ( STR_IS_NULL_OR_EMPTY( process_name ) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   sprintf ( pid_file_name, "/var/run/%s.pid", process_name );
   fp_pid = fopen ( pid_file_name, "w" );
   if ( !( fp_pid ) )
-    return ICP_FALSE;
+    return CMNUTIL_FALSE;
   
   fprintf ( fp_pid, "%d", process_pid );
   fflush ( fp_pid );
   fclose ( fp_pid );
-  return ICP_TRUE;
+  return CMNUTIL_TRUE;
 }
 
 /* ---------- ---------- ---------- ---------- ---------- ---------- ---------- ---------- */
