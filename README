@@ -1,0 +1,53 @@
+################################################################################
+##
+## CommonUtilsLib - README
+##
+################################################################################
+
+Having had to build a number of applications over time, there are a number of
+paradigms and routines that tend to keep reappearing from project to project.
+In an effort to not have to constantly "reinvent the wheel" and as a way to
+maintain a little bit of my sanity, this utility library has been put together
+as a way to keep all these reused bits and pieces in one common location. Most
+of the development being done that uses/will use this code is written for Linux.
+However, since some of the routines would be helpful to have in the Win32
+environment as well, an effort is being put into this to make the functions as
+cross-platform as possible. In doing so, I have opted to make use of CMake
+instead of the autotools suite. Cygwin provides a viable implementation of
+automake, autoconf, and libtool, but after having worked a bit with both autotools
+and cmake, I have found cmake to be easier to work with, at least as far as
+troubleshooting cross-platform issues goes (amongst other reasons).
+
+Contributions to this library are most welcome and will be reviewed before being
+"officially" added to the library. I have a particular style of code that I try
+to use, and any additions to the library by others will be put into this style
+as well.
+
+Note that there are a number of "build" sub-directories included in the Git
+repository. Part of making the library cross-platform will be to provide pre-
+generated Makefiles, made by CMake, according to the platform and compiler with
+which they should be used. I realize that everyone does not have the exact same
+build environment, but this should provide some starting point for anyone who
+wants to use this code on a particular platform.
+
+Please check in time-to-time to see what additions have been made; initially, this
+library will be under heavy development, however once it has been established, few
+changes are expected to be made, save for bug fixes as they are found.
+
+I am opting for the LGPL licensing model so that this code may be useful to anyone
+who would like to use it in a closed-source application. I realize that not
+everyone can GPL their software and provide it for all the world to see, and
+I would like to provide something of use to them as well as the GPL community.
+
+CURRENT BUILD ENVIRONMENTS:
+
+*	Cygwin/GCC		: gcc version 4.3.4 20090804 (release) 1
+
+*	Win32/MSVC++	: Visual Studio Express 2008
+
+*	Win32/Watcom	: Open Watcom C/C++ CL clone for 386 version 1.9
+
+*	Linux/GCC		: gcc version 4.1.2 20070626 (Red Hat 4.1.2-13)
+
+*	CMake version >= 2.8
+
