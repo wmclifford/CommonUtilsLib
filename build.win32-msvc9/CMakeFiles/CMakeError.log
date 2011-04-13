@@ -1,0 +1,955 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFiles.c"
+1>CheckIncludeFiles.c
+1>C:\cyg\usr\include\pthread.h(73) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(73) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(73) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(73) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(74) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(74) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(74) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(74) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(75) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(75) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(75) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(75) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(76) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(76) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(76) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(76) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(77) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(77) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(77) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(77) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(78) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(78) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(78) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(78) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(79) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(79) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(79) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(79) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(80) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(80) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(80) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(80) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(81) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(81) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(81) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(81) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(82) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(82) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(82) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(82) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(83) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(83) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(83) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(83) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(84) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(84) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(84) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(84) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(123) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(123) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(123) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(123) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(124) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(124) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(124) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(124) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(125) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(125) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(125) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(125) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(126) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(126) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(126) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(126) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(127) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(127) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(127) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(128) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(129) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(129) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(129) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(129) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(130) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(130) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(130) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(130) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(131) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(131) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(131) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(131) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(132) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(132) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(132) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(132) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(133) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(133) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(133) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(133) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(135) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(135) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(135) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(140) : error C2122: 'int *' : prototype parameter in name list illegal
+1>C:\cyg\usr\include\pthread.h(140) : error C2122: 'sched_param *' : prototype parameter in name list illegal
+1>C:\cyg\usr\include\pthread.h(142) : error C2122: 'void **' : prototype parameter in name list illegal
+1>C:\cyg\usr\include\pthread.h(143) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(143) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(143) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(147) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(147) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(147) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(147) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(147) : fatal error C1003: error count exceeds 100; stopping compilation
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 102 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if the include file cygwin/if.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2061: syntax error : identifier 'readv'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2061: syntax error : identifier 'writev'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2061: syntax error : identifier 'pid_t'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2061: syntax error : identifier 'uid'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2061: syntax error : identifier 'gid'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(57) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(19) : error C2061: syntax error : identifier 'suseconds_t'
+1>C:\cyg\usr\include\sys/time.h(20) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(38) : error C2079: 'it_interval' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/time.h(39) : error C2079: 'it_value' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2061: syntax error : identifier 'recv'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2061: syntax error : identifier 'recvfrom'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2061: syntax error : identifier 'recvmsg'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2061: syntax error : identifier 'send'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2061: syntax error : identifier 'sendmsg'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2061: syntax error : identifier 'sendto'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2061: syntax error : identifier 'caddr_t'
+1>C:\cyg\usr\include\cygwin/if.h(108) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\cygwin/if.h(109) : error C2059: syntax error : '}'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 39 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file netdb.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2061: syntax error : identifier 'caddr_t'
+1>C:\cyg\usr\include\cygwin/if.h(108) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\cygwin/if.h(109) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2061: syntax error : identifier 'readv'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2061: syntax error : identifier 'writev'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2061: syntax error : identifier 'pid_t'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2061: syntax error : identifier 'uid'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2061: syntax error : identifier 'gid'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(57) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(19) : error C2061: syntax error : identifier 'suseconds_t'
+1>C:\cyg\usr\include\sys/time.h(20) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(38) : error C2079: 'it_interval' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/time.h(39) : error C2079: 'it_value' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2061: syntax error : identifier 'recv'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2061: syntax error : identifier 'recvfrom'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2061: syntax error : identifier 'recvmsg'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2061: syntax error : identifier 'send'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2061: syntax error : identifier 'sendmsg'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2061: syntax error : identifier 'sendto'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\asm/byteorder.h(31) : error C2054: expected '(' to follow '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(31) : error C2085: '__ntohl' : not in formal parameter list
+1>C:\cyg\usr\include\asm/byteorder.h(32) : error C2061: syntax error : identifier '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(35) : error C2054: expected '(' to follow '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(36) : error C2085: '__ntohl' : not in formal parameter list
+1>C:\cyg\usr\include\asm/byteorder.h(36) : error C2143: syntax error : missing ';' before '{'
+1>C:\cyg\usr\include\asm/byteorder.h(52) : error C2054: expected '(' to follow '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(53) : error C2085: '__ntohs' : not in formal parameter list
+1>C:\cyg\usr\include\asm/byteorder.h(53) : error C2143: syntax error : missing ';' before '{'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 48 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\pthread.h(73) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(73) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(73) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(73) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(74) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(74) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(74) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(74) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(75) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(75) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(75) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(75) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(76) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(76) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(76) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(76) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(77) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(77) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(77) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(77) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(78) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(78) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(78) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(78) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(79) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(79) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(79) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(79) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(80) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(80) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(80) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(80) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(81) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(81) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(81) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(81) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(82) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(82) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(82) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(82) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(83) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(83) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(83) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(83) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(84) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(84) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(84) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(84) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(123) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(123) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(123) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(123) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(124) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(124) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(124) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(124) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(125) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(125) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(125) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(125) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(126) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(126) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(126) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(126) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(127) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(127) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(127) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(128) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(129) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(129) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(129) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(129) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(130) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(130) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(130) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(130) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(131) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(131) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(131) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(131) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(132) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(132) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(132) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(132) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(133) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(133) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(133) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(133) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(135) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(135) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(135) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(140) : error C2122: 'int *' : prototype parameter in name list illegal
+1>C:\cyg\usr\include\pthread.h(140) : error C2122: 'sched_param *' : prototype parameter in name list illegal
+1>C:\cyg\usr\include\pthread.h(142) : error C2122: 'void **' : prototype parameter in name list illegal
+1>C:\cyg\usr\include\pthread.h(143) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(143) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(143) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\pthread.h(147) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\pthread.h(147) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\pthread.h(147) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\pthread.h(147) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\pthread.h(147) : fatal error C1003: error count exceeds 100; stopping compilation
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 102 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\sys/_types.h(36) : error C2054: expected '(' to follow '__extension__'
+1>C:\cyg\usr\include\sys/_types.h(36) : error C2085: '_off64_t' : not in formal parameter list
+1>C:\cyg\usr\include\sys/_types.h(44) : error C2085: '_fpos_t' : not in formal parameter list
+1>C:\cyg\usr\include\sys/_types.h(56) : error C2085: '_ssize_t' : not in formal parameter list
+1>c:\Program Files\Microsoft Visual Studio 9.0\VC\include\stddef.h(41) : error C2085: '_errno' : not in formal parameter list
+1>c:\Program Files\Microsoft Visual Studio 9.0\VC\include\stddef.h(44) : error C2440: 'initializing' : cannot convert from 'char [2]' to 'unsigned int'
+1>c:\Program Files\Microsoft Visual Studio 9.0\VC\include\stddef.h(44) : error C2085: '_set_errno' : not in formal parameter list
+1>c:\Program Files\Microsoft Visual Studio 9.0\VC\include\stddef.h(45) : error C2440: 'initializing' : cannot convert from 'char [2]' to 'size_t'
+1>c:\Program Files\Microsoft Visual Studio 9.0\VC\include\stddef.h(45) : error C2440: 'initializing' : cannot convert from 'char [2]' to 'unsigned int'
+1>c:\Program Files\Microsoft Visual Studio 9.0\VC\include\stddef.h(45) : error C2085: '_get_errno' : not in formal parameter list
+1>c:\Program Files\Microsoft Visual Studio 9.0\VC\include\stddef.h(68) : error C2085: '__threadid' : not in formal parameter list
+1>c:\Program Files\Microsoft Visual Studio 9.0\VC\include\stddef.h(70) : error C2085: '__threadhandle' : not in formal parameter list
+1>C:\cyg\usr\include\sys/_types.h(73) : error C2057: expected constant expression
+1>C:\cyg\usr\include\sys/_types.h(74) : error C4980: '__value' : use of this keyword requires /clr:oldSyntax command line option
+1>C:\cyg\usr\include\sys/_types.h(74) : error C2059: syntax error : '__value'
+1>C:\cyg\usr\include\sys/_types.h(75) : error C2085: '_mbstate_t' : not in formal parameter list
+1>C:\cyg\usr\include\sys/_types.h(79) : error C2085: '_flock_t' : not in formal parameter list
+1>C:\cyg\usr\include\sys/_types.h(84) : error C2085: '_iconv_t' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(15) : error C2085: 'environ' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(17) : error C2085: '_exit' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(19) : error C2085: 'access' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(20) : error C2085: 'alarm' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(21) : error C2085: 'chdir' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(22) : error C2085: 'chmod' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(24) : error C2085: 'chown' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(29) : error C2085: 'close' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(33) : error C2085: 'ctermid' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(34) : error C2085: 'cuserid' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(38) : error C2085: 'dup' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(39) : error C2085: 'dup2' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(46) : error C2085: 'execl' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(47) : error C2085: 'execle' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(48) : error C2085: 'execlp' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(49) : error C2085: 'execv' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(50) : error C2085: 'execve' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(51) : error C2085: 'execvp' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(59) : error C2085: 'fchmod' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(61) : error C2085: 'fchown' : not in formal parameter list
+1>C:\cyg\usr\include\sys/unistd.h(67) : error C2061: syntax error : identifier 'pid_t'
+1>C:\cyg\usr\include\sys/unistd.h(76) : error C2061: syntax error : identifier 'getegid'
+1>C:\cyg\usr\include\sys/unistd.h(76) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(76) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(77) : error C2061: syntax error : identifier 'geteuid'
+1>C:\cyg\usr\include\sys/unistd.h(77) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(77) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(78) : error C2061: syntax error : identifier 'getgid'
+1>C:\cyg\usr\include\sys/unistd.h(78) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(78) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(93) : error C2061: syntax error : identifier 'getpgid'
+1>C:\cyg\usr\include\sys/unistd.h(93) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(93) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(94) : error C2061: syntax error : identifier 'getpgrp'
+1>C:\cyg\usr\include\sys/unistd.h(94) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(94) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(95) : error C2061: syntax error : identifier 'getpid'
+1>C:\cyg\usr\include\sys/unistd.h(95) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(95) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(96) : error C2061: syntax error : identifier 'getppid'
+1>C:\cyg\usr\include\sys/unistd.h(96) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(96) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(101) : error C2061: syntax error : identifier 'getuid'
+1>C:\cyg\usr\include\sys/unistd.h(101) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(101) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(136) : error C2061: syntax error : identifier 'pread'
+1>C:\cyg\usr\include\sys/unistd.h(136) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(136) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(137) : error C2061: syntax error : identifier 'pwrite'
+1>C:\cyg\usr\include\sys/unistd.h(137) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(137) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(164) : error C2061: syntax error : identifier 'setsid'
+1>C:\cyg\usr\include\sys/unistd.h(164) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(164) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(174) : error C2061: syntax error : identifier 'tcgetpgrp'
+1>C:\cyg\usr\include\sys/unistd.h(174) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(174) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(197) : error C2061: syntax error : identifier 'vfork'
+1>C:\cyg\usr\include\sys/unistd.h(197) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(197) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/unistd.h(241) : error C2061: syntax error : identifier 'readlink'
+1>C:\cyg\usr\include\sys/unistd.h(241) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/unistd.h(241) : error C2059: syntax error : ')'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 81 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file arpa/inet.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\sys/time.h(19) : error C2061: syntax error : identifier 'suseconds_t'
+1>C:\cyg\usr\include\sys/time.h(20) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(38) : error C2079: 'it_interval' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/time.h(39) : error C2079: 'it_value' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2061: syntax error : identifier 'recv'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2061: syntax error : identifier 'recvfrom'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2061: syntax error : identifier 'recvmsg'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2061: syntax error : identifier 'send'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2061: syntax error : identifier 'sendmsg'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2061: syntax error : identifier 'sendto'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2061: syntax error : identifier 'caddr_t'
+1>C:\cyg\usr\include\cygwin/if.h(108) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\cygwin/if.h(109) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2061: syntax error : identifier 'readv'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2061: syntax error : identifier 'writev'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2061: syntax error : identifier 'pid_t'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2061: syntax error : identifier 'uid'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2061: syntax error : identifier 'gid'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(57) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\asm/byteorder.h(31) : error C2054: expected '(' to follow '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(31) : error C2085: '__ntohl' : not in formal parameter list
+1>C:\cyg\usr\include\asm/byteorder.h(32) : error C2061: syntax error : identifier '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(35) : error C2054: expected '(' to follow '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(36) : error C2085: '__ntohl' : not in formal parameter list
+1>C:\cyg\usr\include\asm/byteorder.h(36) : error C2143: syntax error : missing ';' before '{'
+1>C:\cyg\usr\include\asm/byteorder.h(52) : error C2054: expected '(' to follow '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(53) : error C2085: '__ntohs' : not in formal parameter list
+1>C:\cyg\usr\include\asm/byteorder.h(53) : error C2143: syntax error : missing ';' before '{'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 48 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file linux/if.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>.\CheckIncludeFile.c(1) : fatal error C1083: Cannot open include file: 'linux/if.h': No such file or directory
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file linux/sockios.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>.\CheckIncludeFile.c(1) : fatal error C1083: Cannot open include file: 'linux/sockios.h': No such file or directory
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 1 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file net/if.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2061: syntax error : identifier 'readv'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2061: syntax error : identifier 'writev'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2061: syntax error : identifier 'pid_t'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2061: syntax error : identifier 'uid'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2061: syntax error : identifier 'gid'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(57) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(19) : error C2061: syntax error : identifier 'suseconds_t'
+1>C:\cyg\usr\include\sys/time.h(20) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(38) : error C2079: 'it_interval' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/time.h(39) : error C2079: 'it_value' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2061: syntax error : identifier 'recv'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2061: syntax error : identifier 'recvfrom'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2061: syntax error : identifier 'recvmsg'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2061: syntax error : identifier 'send'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2061: syntax error : identifier 'sendmsg'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2061: syntax error : identifier 'sendto'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2061: syntax error : identifier 'caddr_t'
+1>C:\cyg\usr\include\cygwin/if.h(108) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\cygwin/if.h(109) : error C2059: syntax error : '}'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 39 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\sys/time.h(19) : error C2061: syntax error : identifier 'suseconds_t'
+1>C:\cyg\usr\include\sys/time.h(20) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(38) : error C2079: 'it_interval' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/time.h(39) : error C2079: 'it_value' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2061: syntax error : identifier 'recv'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2061: syntax error : identifier 'recvfrom'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2061: syntax error : identifier 'recvmsg'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2061: syntax error : identifier 'send'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2061: syntax error : identifier 'sendmsg'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2061: syntax error : identifier 'sendto'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2061: syntax error : identifier 'caddr_t'
+1>C:\cyg\usr\include\cygwin/if.h(108) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\cygwin/if.h(109) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2061: syntax error : identifier 'readv'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2061: syntax error : identifier 'writev'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2061: syntax error : identifier 'pid_t'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2061: syntax error : identifier 'uid'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2061: syntax error : identifier 'gid'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(57) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\asm/byteorder.h(31) : error C2054: expected '(' to follow '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(31) : error C2085: '__ntohl' : not in formal parameter list
+1>C:\cyg\usr\include\asm/byteorder.h(32) : error C2061: syntax error : identifier '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(35) : error C2054: expected '(' to follow '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(36) : error C2085: '__ntohl' : not in formal parameter list
+1>C:\cyg\usr\include\asm/byteorder.h(36) : error C2143: syntax error : missing ';' before '{'
+1>C:\cyg\usr\include\asm/byteorder.h(52) : error C2054: expected '(' to follow '__inline__'
+1>C:\cyg\usr\include\asm/byteorder.h(53) : error C2085: '__ntohs' : not in formal parameter list
+1>C:\cyg\usr\include\asm/byteorder.h(53) : error C2143: syntax error : missing ';' before '{'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 48 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file netinet/tcp.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\netinet/tcp.h(42) : error C2061: syntax error : identifier 'tcp_seq'
+1>C:\cyg\usr\include\netinet/tcp.h(42) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\netinet/tcp.h(43) : error C2061: syntax error : identifier 'tcp_cc'
+1>C:\cyg\usr\include\netinet/tcp.h(43) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\netinet/tcp.h(53) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\netinet/tcp.h(53) : error C2061: syntax error : identifier 'u_short'
+1>C:\cyg\usr\include\netinet/tcp.h(54) : error C2061: syntax error : identifier 'th_dport'
+1>C:\cyg\usr\include\netinet/tcp.h(54) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\netinet/tcp.h(55) : error C2061: syntax error : identifier 'th_seq'
+1>C:\cyg\usr\include\netinet/tcp.h(55) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\netinet/tcp.h(56) : error C2061: syntax error : identifier 'th_ack'
+1>C:\cyg\usr\include\netinet/tcp.h(56) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\netinet/tcp.h(58) : error C2061: syntax error : identifier 'th_x2'
+1>C:\cyg\usr\include\netinet/tcp.h(58) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\netinet/tcp.h(58) : error C2059: syntax error : ':'
+1>C:\cyg\usr\include\netinet/tcp.h(65) : error C2061: syntax error : identifier 'th_flags'
+1>C:\cyg\usr\include\netinet/tcp.h(65) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\netinet/tcp.h(74) : error C2061: syntax error : identifier 'th_win'
+1>C:\cyg\usr\include\netinet/tcp.h(74) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\netinet/tcp.h(75) : error C2061: syntax error : identifier 'th_sum'
+1>C:\cyg\usr\include\netinet/tcp.h(75) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\netinet/tcp.h(76) : error C2061: syntax error : identifier 'th_urp'
+1>C:\cyg\usr\include\netinet/tcp.h(76) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\netinet/tcp.h(77) : error C2059: syntax error : '}'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 24 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/resource.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\sys/time.h(19) : error C2061: syntax error : identifier 'suseconds_t'
+1>C:\cyg\usr\include\sys/time.h(20) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(38) : error C2079: 'it_interval' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/time.h(39) : error C2079: 'it_value' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/resource.h(52) : error C2079: 'ru_utime' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/resource.h(53) : error C2079: 'ru_stime' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/resource.h(76) : error C2146: syntax error : missing ')' before identifier 'who'
+1>C:\cyg\usr\include\sys/resource.h(76) : error C2081: 'id_t' : name in formal parameter list illegal
+1>C:\cyg\usr\include\sys/resource.h(76) : error C2061: syntax error : identifier 'who'
+1>C:\cyg\usr\include\sys/resource.h(76) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/resource.h(76) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2146: syntax error : missing ')' before identifier 'who'
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2081: 'id_t' : name in formal parameter list illegal
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2061: syntax error : identifier 'who'
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2059: syntax error : ')'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 17 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/select.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\sys/time.h(19) : error C2061: syntax error : identifier 'suseconds_t'
+1>C:\cyg\usr\include\sys/time.h(20) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(38) : error C2079: 'it_interval' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/time.h(39) : error C2079: 'it_value' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/select.h(32) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\sys/select.h(32) : error C2081: 'fd_set' : name in formal parameter list illegal
+1>C:\cyg\usr\include\sys/select.h(32) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\sys/select.h(32) : error C2143: syntax error : missing ';' before '*'
+1>C:\cyg\usr\include\sys/select.h(32) : error C2143: syntax error : missing ';' before '*'
+1>C:\cyg\usr\include\sys/select.h(32) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/select.h(32) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/select.h(35) : error C2143: syntax error : missing ')' before '*'
+1>C:\cyg\usr\include\sys/select.h(35) : error C2081: 'fd_set' : name in formal parameter list illegal
+1>C:\cyg\usr\include\sys/select.h(35) : error C2143: syntax error : missing '{' before '*'
+1>C:\cyg\usr\include\sys/select.h(35) : error C2143: syntax error : missing ';' before '*'
+1>C:\cyg\usr\include\sys/select.h(35) : error C2143: syntax error : missing ';' before '*'
+1>C:\cyg\usr\include\sys/select.h(35) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/select.h(35) : error C2059: syntax error : ')'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 18 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/socket.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/if.h(106) : error C2061: syntax error : identifier 'caddr_t'
+1>C:\cyg\usr\include\cygwin/if.h(108) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\cygwin/if.h(109) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2061: syntax error : identifier 'readv'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(33) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2061: syntax error : identifier 'writev'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/uio.h(34) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2016: C requires that a struct or union has at least one member
+1>C:\cyg\usr\include\cygwin/socket.h(54) : error C2061: syntax error : identifier 'pid_t'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2061: syntax error : identifier 'uid'
+1>C:\cyg\usr\include\cygwin/socket.h(55) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2061: syntax error : identifier 'gid'
+1>C:\cyg\usr\include\cygwin/socket.h(56) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\cygwin/socket.h(57) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(19) : error C2061: syntax error : identifier 'suseconds_t'
+1>C:\cyg\usr\include\sys/time.h(20) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(38) : error C2079: 'it_interval' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/time.h(39) : error C2079: 'it_value' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2061: syntax error : identifier 'recv'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(37) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2061: syntax error : identifier 'recvfrom'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(38) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2061: syntax error : identifier 'recvmsg'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(40) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2061: syntax error : identifier 'send'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(41) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2061: syntax error : identifier 'sendmsg'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(42) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2061: syntax error : identifier 'sendto'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/socket.h(43) : error C2059: syntax error : 'type'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 39 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\sys/time.h(19) : error C2061: syntax error : identifier 'suseconds_t'
+1>C:\cyg\usr\include\sys/time.h(20) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(38) : error C2079: 'it_interval' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/time.h(39) : error C2079: 'it_value' uses undefined struct 'timeval'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 4 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+
+Determining if the include file sys/wait.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-msvc9/CMakeFiles/CMakeTmp
+
+Run Build Command:c:\PROGRA~1\MICROS~1.0\Common7\IDE\VCExpress.exe CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual C++ Express Edition Version 9.0.30729.1.
+Copyright (C) Microsoft Corp 2007. All rights reserved.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>Compiling...
+1>Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 15.00.30729.01 for 80x86
+1>Copyright (C) Microsoft Corporation.  All rights reserved.
+1>cl /Od /D "WIN32" /D "_WINDOWS" /D "_DEBUG" /D "CMAKE_INTDIR=\"Debug\"" /D "_MBCS" /FD /RTC1 /MDd /Fo"cmTryCompileExec.dir\Debug\\" /Fd"C:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\Debug/cmTryCompileExec.pdb" /W3 /c /Zi /TC   /Zm1000
+1>   ".\CheckIncludeFile.c"
+1>CheckIncludeFile.c
+1>C:\cyg\usr\include\sys/time.h(19) : error C2061: syntax error : identifier 'suseconds_t'
+1>C:\cyg\usr\include\sys/time.h(20) : error C2059: syntax error : '}'
+1>C:\cyg\usr\include\sys/time.h(38) : error C2079: 'it_interval' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/time.h(39) : error C2079: 'it_value' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/resource.h(52) : error C2079: 'ru_utime' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/resource.h(53) : error C2079: 'ru_stime' uses undefined struct 'timeval'
+1>C:\cyg\usr\include\sys/resource.h(76) : error C2146: syntax error : missing ')' before identifier 'who'
+1>C:\cyg\usr\include\sys/resource.h(76) : error C2081: 'id_t' : name in formal parameter list illegal
+1>C:\cyg\usr\include\sys/resource.h(76) : error C2061: syntax error : identifier 'who'
+1>C:\cyg\usr\include\sys/resource.h(76) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/resource.h(76) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2146: syntax error : missing ')' before identifier 'who'
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2081: 'id_t' : name in formal parameter list illegal
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2061: syntax error : identifier 'who'
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\sys/resource.h(77) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/wait.h(22) : error C2061: syntax error : identifier 'wait'
+1>C:\cyg\usr\include\sys/wait.h(22) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/wait.h(22) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/wait.h(23) : error C2061: syntax error : identifier 'waitpid'
+1>C:\cyg\usr\include\sys/wait.h(23) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/wait.h(23) : error C2143: syntax error : missing ')' before ','
+1>C:\cyg\usr\include\sys/wait.h(23) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/wait.h(23) : error C2059: syntax error : ')'
+1>C:\cyg\usr\include\sys/wait.h(24) : error C2061: syntax error : identifier 'wait3'
+1>C:\cyg\usr\include\sys/wait.h(24) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/wait.h(24) : error C2059: syntax error : 'type'
+1>C:\cyg\usr\include\sys/wait.h(25) : error C2061: syntax error : identifier 'wait4'
+1>C:\cyg\usr\include\sys/wait.h(25) : error C2059: syntax error : ';'
+1>C:\cyg\usr\include\sys/wait.h(25) : error C2146: syntax error : missing ')' before identifier '__pid'
+1>C:\cyg\usr\include\sys/wait.h(25) : error C2061: syntax error : identifier '__pid'
+1>C:\cyg\usr\include\sys/wait.h(25) : error C2059: syntax error : ','
+1>C:\cyg\usr\include\sys/wait.h(25) : error C2059: syntax error : ')'
+1>Build log was saved at "file://c:\src.git\wmclifford\CommonUtilsLib\build.win32-msvc9\CMakeFiles\CMakeTmp\cmTryCompileExec.dir\Debug\BuildLog.htm"
+1>cmTryCompileExec - 34 error(s), 0 warning(s)
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+

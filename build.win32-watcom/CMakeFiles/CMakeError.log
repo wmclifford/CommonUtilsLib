@@ -1,0 +1,330 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFiles.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): Error! E1055: Unable to open 'pthread.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFiles.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
+Determining if the include file cygwin/if.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'cygwin/if.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file cygwin/sockios.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'cygwin/sockios.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file getopt.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'getopt.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file netdb.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'netdb.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file pthread.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'pthread.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file arpa/inet.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'arpa/inet.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file linux/if.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'linux/if.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file linux/sockios.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'linux/sockios.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file net/if.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'net/if.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file netinet/in.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'netinet/in.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file netinet/tcp.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'netinet/tcp.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file sys/ioctl.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'sys/ioctl.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file sys/resource.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'sys/resource.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file sys/select.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'sys/select.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file sys/socket.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'sys/socket.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file sys/time.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'sys/time.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+
+Determining if the include file sys/wait.h exists failed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): Error! E1055: Unable to open 'sys/wait.h'
+Error: Compiler returned a bad status compiling "C:\src.git\wmclifford\CommonUtilsLib\build.win32-watcom\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+Error(E42): Last command making (CMakeFiles\cmTryCompileExec.dir\CheckIncludeFile.c.obj) returned a bad status
+Error(E02): Make execution terminated
+Error(E42): Last command making (cmTryCompileExec\fast) returned a bad status
+Error(E02): Make execution terminated
+
+

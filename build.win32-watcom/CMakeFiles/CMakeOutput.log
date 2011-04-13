@@ -1,0 +1,276 @@
+The system is: Windows - 5.1 - x86
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: C:/opt/watcom/binnt/wcl386.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Open Watcom C/C++32 Compile and Link Utility Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	wcc386 CMakeCCompilerId.c 
+Open Watcom C32 Optimizing Compiler Version 1.9
+Portions Copyright (c) 1984-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+CMakeCCompilerId.c: 229 lines, included 35, 0 warnings, 0 errors
+Code size: 47
+	wlink @__wcl__.lnk
+Open Watcom Linker Version 1.9
+Portions Copyright (c) 1985-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+loading object files
+searching libraries
+creating a Windows NT character-mode executable
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.exe"
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
+
+The C compiler identification is Watcom, found in "C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CompilerIdC/CMakeCCompilerId.exe"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: C:/opt/watcom/binnt/wcl386.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+Open Watcom C/C++32 Compile and Link Utility Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	wpp386 CMakeCXXCompilerId.cpp 
+Open Watcom C++32 Optimizing Compiler Version 1.9
+Portions Copyright (c) 1989-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+CMakeCXXCompilerId.cpp: 215 lines, included 35, no warnings, no errors
+	wlink @__wcl__.lnk
+Open Watcom Linker Version 1.9
+Portions Copyright (c) 1985-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+loading object files
+searching libraries
+creating a Windows NT character-mode executable
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.exe"
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
+
+The CXX compiler identification is Watcom, found in "C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CompilerIdCXX/CMakeCXXCompilerId.exe"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/testCCompiler.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CMakeCCompilerABI.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building CXX object CMakeFiles/cmTryCompileExec.dir/testCXXCompiler.cxx.obj
+Linking CXX executable cmTryCompileExec.exe
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building CXX object CMakeFiles/cmTryCompileExec.dir/CMakeCXXCompilerABI.cpp.obj
+Linking CXX executable cmTryCompileExec.exe
+
+
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/src.git/wmclifford/CommonUtilsLib/build.win32-watcom/CMakeFiles/CMakeTmp
+
+Run Build Command:wmake "cmTryCompileExec\fast"
+Open Watcom Make Version 1.9
+Portions Copyright (c) 1988-2002 Sybase, Inc. All Rights Reserved.
+Source code is available under the Sybase Open Watcom Public License.
+See http://www.openwatcom.org/ for details.
+	C:\opt\watcom\BINNT\wmake.exe -f CMakeFiles\cmTryCompileExec.dir\build.make -s -h CMakeFiles\cmTryCompileExec.dir\build
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.obj
+Linking C executable cmTryCompileExec.exe
+
+

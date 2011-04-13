@@ -1,0 +1,49 @@
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o
+/usr/bin/gcc.exe   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8.2/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec.exe
+/usr/bin/cmake.exe -E cmake_link_script CMakeFiles/cmTryCompileExec.dir/link.txt --verbose=1
+/usr/bin/gcc.exe     -DCHECK_FUNCTION_EXISTS=pthread_create  -Wl,--enable-auto-import CMakeFiles/cmTryCompileExec.dir/CheckFunctionExists.c.o  -o cmTryCompileExec.exe -Wl,--out-implib,libcmTryCompileExec.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lpthreads 
+/usr/lib/gcc/i686-pc-cygwin/4.3.4/../../../../i686-pc-cygwin/bin/ld: cannot find -lpthreads
+collect2: ld returned 1 exit status
+make[1]: Leaving directory `/cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp'
+make[1]: *** [cmTryCompileExec.exe] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file linux/if.h exists failed with the following output:
+Change Dir: /cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:22: error: linux/if.h: No such file or directory
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make[1]: Leaving directory `/cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec/fast] Error 2
+
+
+Determining if the include file linux/sockios.h exists failed with the following output:
+Change Dir: /cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make.exe "cmTryCompileExec/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec.dir/build.make CMakeFiles/cmTryCompileExec.dir/build
+make[1]: Entering directory `/cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp'
+/usr/bin/cmake.exe -E cmake_progress_report /cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o
+/usr/bin/gcc.exe    -o CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o   -c /cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:27: error: linux/sockios.h: No such file or directory
+make[1]: Leaving directory `/cygdrive/c/src.git/wmclifford/CommonUtilsLib/build.win32-cygwin/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
+make: *** [cmTryCompileExec/fast] Error 2
+
+

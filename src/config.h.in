@@ -1,0 +1,106 @@
+/**
+ * @file    config.h
+ * @author  William Clifford
+ * @brief   Defines indicating the build system capabilities.
+ **/
+
+/* Defines identified by the cmake build system. These will be defined if found. */
+
+#cmakedefine ALSA_FOUND
+
+#cmakedefine BZIP2_FOUND
+
+#cmakedefine CURSES_FOUND
+
+#cmakedefine EXPAT_FOUND
+
+#cmakedefine FLTK_FOUND
+
+#cmakedefine GTK_FOUND
+
+#cmakedefine GTK2_FOUND
+
+#cmakedefine LIBXML2_FOUND
+
+#cmakedefine OPENSSL_FOUND
+
+#cmakedefine PYTHONINTERP_FOUND
+
+#cmakedefine PYTHONLIBS_FOUND
+
+#cmakedefine QT_FOUND
+
+#cmakedefine QT4_INSTALLED
+
+#cmakedefine QT3_INSTALLED
+
+#cmakedefine CMAKE_USE_PTHREADS_INIT
+
+#cmakedefine ZLIB_FOUND
+
+/* Custom lookups identifying what we have available to us. */
+
+#cmakedefine LOG4C_FOUND
+
+#cmakedefine USE_LOG4C
+
+/* Standard headers */
+
+#cmakedefine HAVE_ASSERT_H
+
+#cmakedefine HAVE_STDARG_H
+
+#cmakedefine HAVE_STRING_H
+
+#cmakedefine HAVE_CTYPE_H
+
+#cmakedefine HAVE_CYGWIN_IF_H
+
+#cmakedefine HAVE_CYGWIN_SOCKIOS_H
+
+#cmakedefine HAVE_ERRNO_H
+
+#cmakedefine HAVE_FCNTL_H
+
+#cmakedefine HAVE_GETOPT_H
+
+#cmakedefine HAVE_LIMITS_H
+
+#cmakedefine HAVE_NETDB_H
+
+#cmakedefine HAVE_PTHREAD_H
+
+#cmakedefine HAVE_SIGNAL_H
+
+#cmakedefine HAVE_TIME_H
+
+#cmakedefine HAVE_UNISTD_H
+
+#cmakedefine HAVE_ARPA_INET_H
+
+#cmakedefine HAVE_LINUX_IF_H
+
+#cmakedefine HAVE_LINUX_SOCKIOS_H
+
+#cmakedefine HAVE_NET_IF_H
+
+#cmakedefine HAVE_NETINET_IN_H
+
+#cmakedefine HAVE_NETINET_TCP_H
+
+#cmakedefine HAVE_SYS_IOCTL_H
+
+#cmakedefine HAVE_SYS_RESOURCE_H
+
+#cmakedefine HAVE_SYS_SELECT_H
+
+#cmakedefine HAVE_SYS_SOCKET_H
+
+#cmakedefine HAVE_SYS_STAT_H
+
+#cmakedefine HAVE_SYS_TIME_H
+
+#cmakedefine HAVE_SYS_TYPES_H
+
+#cmakedefine HAVE_SYS_WAIT_H
+
